@@ -8,30 +8,36 @@
 import SwiftUI
 
 struct HeaderView: View {
+    
+    let title: String
+    let subTitle:String
+    let angle: Double
+    let backroundColor: Color
+    
     var body: some View {
         ZStack{
             RoundedRectangle(cornerRadius: 10)
-                .rotationEffect(Angle(degrees: 165))
-                .foregroundColor(.blue)
+                .rotationEffect(Angle(degrees: angle))
+                .foregroundColor(backroundColor)
               
             
             VStack {
-                Text("To Do List")
+                Text(title)
                     .foregroundColor(.white)
                     .font(.system(size: 45))
                     .bold()
-                Text("Planning")
+                Text(subTitle)
                     .font(.system(size: 25))
                     .foregroundColor(.white)
             }
-            .padding(.top, 30)
+            .padding(.top, 50)
         }
         .frame(width: UIScreen.main.bounds.width * 3,
-               height: 400)
-        .offset(y: -100)
+               height: 350)
+        .offset(y: -150)
     }
 }
 
 #Preview {
-    HeaderView()
+    HeaderView(title: "title", subTitle: "subtitle", angle: 15, backroundColor: .blue)
 }

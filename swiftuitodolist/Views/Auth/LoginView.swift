@@ -16,7 +16,7 @@ struct LoginView: View {
         NavigationView {
             VStack {
                 //Header
-                    HeaderView()
+                HeaderView(title: "To Do List", subTitle: "Login", angle: 15, backroundColor: .orange)
                 //loginform
                 Form {
                     TextField("Email", text: $email)
@@ -37,7 +37,9 @@ struct LoginView: View {
                                 .bold()
                         }
                     }
+                    .padding()
                 }
+                .offset(y: -40)
                 
                 // create account
                 VStack {
