@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		AB3B45922B2089AE0010CA91 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB3B45912B2089AE0010CA91 /* HeaderView.swift */; };
+		AB3B45942B20DD9D0010CA91 /* AuthButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB3B45932B20DD9D0010CA91 /* AuthButton.swift */; };
 		ABA379E52B1D371A00960FFF /* swiftuitodolistApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA379E42B1D371A00960FFF /* swiftuitodolistApp.swift */; };
 		ABA379E72B1D371A00960FFF /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA379E62B1D371A00960FFF /* MainView.swift */; };
 		ABA379E92B1D371C00960FFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABA379E82B1D371C00960FFF /* Assets.xcassets */; };
@@ -55,6 +56,7 @@
 
 /* Begin PBXFileReference section */
 		AB3B45912B2089AE0010CA91 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		AB3B45932B20DD9D0010CA91 /* AuthButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthButton.swift; sourceTree = "<group>"; };
 		ABA379E12B1D371A00960FFF /* swiftuitodolist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swiftuitodolist.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABA379E42B1D371A00960FFF /* swiftuitodolistApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftuitodolistApp.swift; sourceTree = "<group>"; };
 		ABA379E62B1D371A00960FFF /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
@@ -174,6 +176,7 @@
 				ABFAEBCA2B1E8135006A6D20 /* ToDoView */,
 				ABFAEBC72B1E8105006A6D20 /* Auth */,
 				AB3B45912B2089AE0010CA91 /* HeaderView.swift */,
+				AB3B45932B20DD9D0010CA91 /* AuthButton.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -392,6 +395,7 @@
 				ABA379E72B1D371A00960FFF /* MainView.swift in Sources */,
 				ABFAEBD02B1E81C7006A6D20 /* MainViewViewModel.swift in Sources */,
 				ABFAEBDC2B1E824A006A6D20 /* LoginViewViewModel.swift in Sources */,
+				AB3B45942B20DD9D0010CA91 /* AuthButton.swift in Sources */,
 				ABFAEBBE2B1E801F006A6D20 /* ProfileView.swift in Sources */,
 				ABFAEBC62B1E8074006A6D20 /* RegisterView.swift in Sources */,
 				ABFAEBD82B1E8219006A6D20 /* RegisterViewViewModel.swift in Sources */,
