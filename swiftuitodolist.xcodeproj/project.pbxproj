@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AB3B45922B2089AE0010CA91 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB3B45912B2089AE0010CA91 /* HeaderView.swift */; };
 		ABA379E52B1D371A00960FFF /* swiftuitodolistApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA379E42B1D371A00960FFF /* swiftuitodolistApp.swift */; };
 		ABA379E72B1D371A00960FFF /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA379E62B1D371A00960FFF /* MainView.swift */; };
 		ABA379E92B1D371C00960FFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABA379E82B1D371C00960FFF /* Assets.xcassets */; };
@@ -53,6 +54,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AB3B45912B2089AE0010CA91 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		ABA379E12B1D371A00960FFF /* swiftuitodolist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swiftuitodolist.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABA379E42B1D371A00960FFF /* swiftuitodolistApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftuitodolistApp.swift; sourceTree = "<group>"; };
 		ABA379E62B1D371A00960FFF /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
@@ -171,6 +173,7 @@
 			children = (
 				ABFAEBCA2B1E8135006A6D20 /* ToDoView */,
 				ABFAEBC72B1E8105006A6D20 /* Auth */,
+				AB3B45912B2089AE0010CA91 /* HeaderView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -385,6 +388,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ABFAEBC42B1E806A006A6D20 /* LoginView.swift in Sources */,
+				AB3B45922B2089AE0010CA91 /* HeaderView.swift in Sources */,
 				ABA379E72B1D371A00960FFF /* MainView.swift in Sources */,
 				ABFAEBD02B1E81C7006A6D20 /* MainViewViewModel.swift in Sources */,
 				ABFAEBDC2B1E824A006A6D20 /* LoginViewViewModel.swift in Sources */,
@@ -561,9 +565,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"swiftuitodolist/Preview Content\"";
+				DEVELOPMENT_TEAM = U4898R68SF;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -578,6 +584,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.rantbl.todolist.swiftuitodolist;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -589,9 +596,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"swiftuitodolist/Preview Content\"";
+				DEVELOPMENT_TEAM = U4898R68SF;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -606,6 +615,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.rantbl.todolist.swiftuitodolist;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
