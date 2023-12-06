@@ -17,7 +17,14 @@ struct LoginView: View {
                 //Header
                 HeaderView(title: "To Do List", subTitle: "Login", angle: 15, backroundColor: .orange)
                 //loginform
+              
                 Form {
+                     
+                    if !viewModel.errorMessage.isEmpty {
+                        Text(viewModel.errorMessage)
+                            .foregroundColor(.red)
+                    }
+                    
                     TextField("Email", text: $viewModel.email)
                         .textFieldStyle(DefaultTextFieldStyle())
                         .autocapitalization(.none)
