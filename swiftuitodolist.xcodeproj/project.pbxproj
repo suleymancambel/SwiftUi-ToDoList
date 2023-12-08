@@ -16,6 +16,7 @@
 		ABA379F62B1D371C00960FFF /* swiftuitodolistTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA379F52B1D371C00960FFF /* swiftuitodolistTests.swift */; };
 		ABA37A002B1D371C00960FFF /* swiftuitodolistUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA379FF2B1D371C00960FFF /* swiftuitodolistUITests.swift */; };
 		ABA37A022B1D371C00960FFF /* swiftuitodolistUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA37A012B1D371C00960FFF /* swiftuitodolistUITestsLaunchTests.swift */; };
+		ABE76EB82B227A8C00665171 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE76EB72B227A8C00665171 /* Extensions.swift */; };
 		ABFAEBB22B1E7AD2006A6D20 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = ABFAEBB12B1E7AD2006A6D20 /* GoogleService-Info.plist */; };
 		ABFAEBB42B1E7E60006A6D20 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = ABFAEBB32B1E7E60006A6D20 /* FirebaseAuth */; };
 		ABFAEBB62B1E7E60006A6D20 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = ABFAEBB52B1E7E60006A6D20 /* FirebaseFirestore */; };
@@ -67,6 +68,7 @@
 		ABA379FB2B1D371C00960FFF /* swiftuitodolistUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = swiftuitodolistUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABA379FF2B1D371C00960FFF /* swiftuitodolistUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftuitodolistUITests.swift; sourceTree = "<group>"; };
 		ABA37A012B1D371C00960FFF /* swiftuitodolistUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftuitodolistUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		ABE76EB72B227A8C00665171 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		ABFAEBB12B1E7AD2006A6D20 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		ABFAEBBD2B1E801F006A6D20 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		ABFAEBBF2B1E8053006A6D20 /* ToDoListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListView.swift; sourceTree = "<group>"; };
@@ -141,6 +143,7 @@
 				ABFAEBBA2B1E7F1F006A6D20 /* ViewModels */,
 				ABFAEBB92B1E7F0B006A6D20 /* Views */,
 				ABA379EA2B1D371C00960FFF /* Preview Content */,
+				ABE76EB72B227A8C00665171 /* Extensions.swift */,
 			);
 			path = swiftuitodolist;
 			sourceTree = "<group>";
@@ -405,6 +408,7 @@
 				ABFAEBC92B1E812D006A6D20 /* ToDoListItemView.swift in Sources */,
 				ABFAEBD42B1E81ED006A6D20 /* ToDoListViewViewModel.swift in Sources */,
 				ABA379E52B1D371A00960FFF /* swiftuitodolistApp.swift in Sources */,
+				ABE76EB82B227A8C00665171 /* Extensions.swift in Sources */,
 				ABFAEBCE2B1E819A006A6D20 /* ToDoListItem.swift in Sources */,
 				ABFAEBC22B1E8062006A6D20 /* NewItemView.swift in Sources */,
 				ABFAEBD62B1E8205006A6D20 /* NewItemViewViewModel.swift in Sources */,

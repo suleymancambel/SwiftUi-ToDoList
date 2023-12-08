@@ -8,35 +8,31 @@
 import SwiftUI
 
 struct RegisterView: View {
-    
-    @State var name = ""
-    @State var surname = ""
-    @State var email = ""
-    @State var password = ""
-    
+   
+    @StateObject var viewModel = RegisterViewViewModel()
     var body: some View {
         HeaderView(title: "Register", subTitle: "To Do List", angle: -15, backroundColor: .blue)
         
         Form {
             
-            TextField("Name", text: $name)
+            TextField("Name", text: $viewModel.name)
                 .textFieldStyle(DefaultTextFieldStyle())
                 .autocorrectionDisabled()
 
-            TextField("Surname", text: $surname)
+            TextField("Surname", text: $viewModel.surname)
                 .textFieldStyle(DefaultTextFieldStyle())
                 .autocorrectionDisabled()
 
-            TextField("Email", text: $email)
+            TextField("Email", text: $viewModel.email)
                 .textFieldStyle(DefaultTextFieldStyle())
                 .autocapitalization(.none)
                 .autocorrectionDisabled()
             
-            SecureField("Password", text: $password)
+            SecureField("Password", text: $viewModel.password)
                 .textFieldStyle(DefaultTextFieldStyle())
             AuthButton(title: "Register", buttonColor: .green) {
-                //action
-            }
+                viewModel.register()
+                    }
             
         }
         .offset(y: -50)
